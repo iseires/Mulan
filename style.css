@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    width: 100%;
+    height: 100%;
+    font-family: poppins;
+    background: url("./images/bg.jpg");
+    color: white;
+    overflow-x: hidden;
+    background-size: cover;
+}
+
+.red-btn {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    width: 80px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.more-btn {
+    background-color: transparent;
+    font-size: 16px;
+    width: 110px;
+    height: 35px;
+    border-radius: 5px;
+    color: white;
+    border: 3px solid white;
+}
+
+.name {
+    width: 40%;
+    height: auto;
+}
+
+
+.main {
+    display: flex;
+}
+
+.side-1 {
+    width: 45%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 3%;
+}
+
+.mulan {
+    height: 100%;
+    width: auto;
+    object-position: center;
+}
+
+html {
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin-left: 2%;
+    width: 90%;
+    margin-right: 2%;
+    margin: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+}
+
+li {
+    font-weight: bold;
+}
+
+i {
+    margin-right: 5px;
+}
+
+input[type="search"] {
+    height: 30px;
+    width: 300px;
+    font-size: 16px;
+    background-color: transparent;
+    border: 3px solid gray;
+    border-radius: 5px;
+}
+
+.logo {
+    height: 35px;
+    width: auto;
+}
+
+
+.side-2 {
+    display: flex;
+    justify-content: flex-start;
+}

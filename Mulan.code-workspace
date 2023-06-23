@@ -1,0 +1,13 @@
+{
+  "folders": [
+	{
+		"path": "."
+	},
+	{
+		"path": "..\\Downloads\\images-20220819T203312Z-001"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Mulan"
+  }
+}
